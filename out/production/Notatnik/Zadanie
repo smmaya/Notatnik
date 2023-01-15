@@ -1,0 +1,23 @@
+Napisz klasę Note:
+author (String)
+text (String)
+date (LocalDate)
+notebooks (Notebook) - lista notebooków, do których nalezy notatka
+
+konstruktor 2 parametry: author, text
+metoda printNote - formatuje wypisuje na ekran autora i notatkę
+metoda search, która jako parametr bierze słowo, a zwraca true jeżeli to słowo znajduje się w notatce
+----
+Napisz klasę Notebook
+pole: lista notatek (obiektów klasy Note),
+konstruktor (bez parametrów) tworzy pustą listę notatek
+metody:
+addNote (Note), removeNote (Note)
+searchNotes(String) - zwraca listę notatek zawierających tekst z parametru
+getNotesByAuthor(String)
+removeNotesByAuthor(String)
+getNotesByDate(begin, end) - zwraca notatki z zakresu dwóch dat
+sortNotes - zwraca notatki uporządkowane od najstarszej do najnowszej
+printNotes - wypisująca na ekran w czytelnej postaci wszystkie notatki
+
+Napisać mainie program do obsługi notatek i notatników - interakcja z użytkownikiem, który wybiera opcje zarządzania notatkami i otrzymuje wyniki
